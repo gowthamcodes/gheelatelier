@@ -1,468 +1,346 @@
 <!DOCTYPE html>
-<html lang="zxx">
-  <!-- Mirrored from ultimatewebsolutions.net/GHEEL ATELIER/light/fs-slider.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Sep 2021 06:31:49 GMT -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- color of address bar in mobile browser -->
-    <meta name="theme-color" content="#28292C" />
-    <!-- favicon  -->
-    <link
-      rel="shortcut icon"
-      href="img/light/favicon.png"
-      type="image/x-icon"
-    />
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
-    <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
-    <!-- fancybox css -->
-    <link rel="stylesheet" href="css/plugins/fancybox.min.css" />
-    <!-- mapbox css -->
-    <link href="css/plugins/mapbox-style.css" rel="stylesheet" />
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style-light.css" />
+<html lang="en">
+<head>
+	<!-- Metas -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Faure - Interior &amp; Architecture Agency HTML Template</title>
+	<meta name="description" content="Faure - Interior &amp; Architecture Agency HTML Template">
 
-    <title>Home - GHEEL ATELIER</title>
-  </head>
+	<!-- External CSS -->
+	<link rel="stylesheet" href="assets/css/themify-icons.css">
 
-  <body>
-    <div class="mry-app">
-      <!-- preloader -->
-      <div class="mry-preloader mry-active">
-        <div class="mry-preloader-content">
-          <p class="mry-mb-10">GHEEL ATELIER</p>
-          <div class="mry-loader-bar">
-            <div class="mry-loader"></div>
-          </div>
-          <div class="mry-label">Please wait</div>
-        </div>
-      </div>
-      <!-- preloader end -->
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/colors.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
 
-      <!-- cursor -->
-      <div class="mry-magic-cursor">
-        <div class="mry-ball">
-          <div class="mry-loader">
-            <svg
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              width="40px"
-              height="40px"
-              viewBox="0 0 50 50"
-              style="enable-background: new 0 0 50 50"
-              xml:space="preserve"
-            >
-              <path
-                d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"
-              >
-                <animateTransform
-                  attributeType="xml"
-                  attributeName="transform"
-                  type="rotate"
-                  from="0 25 25"
-                  to="360 25 25"
-                  dur="0.6s"
-                  repeatCount="indefinite"
-                />
-              </path>
-            </svg>
-          </div>
-        </div>
-      </div>
-      <!-- cursor end -->
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=DM+Serif+Display%7CDM+Serif+Text%7CMontserrat:400,500,600%7CMuli:400,600,700&display=swap" rel="stylesheet">
 
-      <!-- top panel -->
-      <div class="mry-top-panel">
-        <div class="mry-logo-frame">
-          <a href="index.html" class="mry-default-link mry-anima-link">
-            <p style="font-weight: bold" class="mry-mb-10">GHEEL ATELIER</p>
-          </a>
-        </div>
-        <div class="mry-menu-button-frame">
-          <div class="mry-label">Menu</div>
+	<!-- Favicon -->
+	<link rel="icon" href="assets/img/favicon.png">
+</head>
+<body>
 
-          <div class="mry-menu-btn mry-magnetic-link">
-            <div class="mry-burger mry-magnetic-object">
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- top panel end -->
+	<!-- ========== Main ========== -->
 
-      <!-- menu -->
-      <div class="mry-menu">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-4">
-              <nav id="mry-dynamic-menu">
-                <ul>
-                  <!-- <li
-                    class="menu-item menu-item-has-children current-menu-item"
-                  >
-                    <a href="#." class="mry-default-link">Home</a>
-                    <ul class="sub-menu">
-                      <li class="menu-item">
-                        <a
-                          href="index.html"
-                          class="mry-anima-link mry-default-link"
-                          >Half slider</a
-                        >
-                      </li>
-                      <li class="menu-item">
-                        <a
-                          href="fs-slider.html"
-                          class="mry-anima-link mry-default-link"
-                          >Full width slider</a
-                        >
-                      </li>
-                    </ul>
-                  </li> -->
+	<main>
+					
+		<div class="main-hero">
 
-                  <li class="menu-item current-menu-item">
-                    <a href="index.html" class="mry-anima-link mry-default-link"
-                      >Home</a
-                    >
-                  </li>
+			<!-- ========== Header ========== -->
+			
+			<header class="header">
+					
+				<div class="container">
 
-                  <li class="menu-item">
-                    <a href="about.html" class="mry-anima-link mry-default-link"
-                      >About</a
-                    >
-                  </li>
-                  <li class="menu-item menu-item-has-children">
-                    <a href="#." class="mry-default-link">Works</a>
-                    <ul class="sub-menu">
-                      <li class="menu-item">
-                        <a
-                          href="portfolio-grid-1.html"
-                          class="mry-anima-link mry-default-link"
-                          >Portfolio grid 1</a
-                        >
-                      </li>
-                      <li class="menu-item">
-                        <a
-                          href="portfolio-grid-2.html"
-                          class="mry-anima-link mry-default-link"
-                          >Portfolio grid 2</a
-                        >
-                      </li>
-                      <li class="menu-item">
-                        <a
-                          href="portfolio-box-1.html"
-                          class="mry-anima-link mry-default-link"
-                          >Portfolio boxed 1</a
-                        >
-                      </li>
-                      <li class="menu-item">
-                        <a
-                          href="portfolio-box-2.html"
-                          class="mry-anima-link mry-default-link"
-                          >Portfolio boxed 2</a
-                        >
-                      </li>
-                      <li class="menu-item">
-                        <a
-                          href="project.html"
-                          class="mry-anima-link mry-default-link"
-                          >Single project</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item">
-                    <a
-                      href="contact.html"
-                      class="mry-anima-link mry-default-link"
-                      >Contact</a
-                    >
-                  </li>
-                  <!-- <li class="menu-item menu-item-has-children">
-                    <a href="#." class="mry-default-link">Blog</a>
-                    <ul class="sub-menu">
-                      <li class="menu-item">
-                        <a
-                          href="blog.html"
-                          class="mry-anima-link mry-default-link"
-                          >Blog list</a
-                        >
-                      </li>
-                      <li class="menu-item">
-                        <a
-                          href="publication.html"
-                          class="mry-anima-link mry-default-link"
-                          >Publication</a
-                        >
-                      </li>
-                    </ul>
-                  </li> -->
-                </ul>
-              </nav>
-            </div>
-            <div class="col-md-4">
-              <div class="mry-info-box-frame">
-                <div class="mry-info-box">
-                  <div class="mry-mb-20">
-                    <div class="mry-label mry-mb-5">Country:</div>
-                    <div class="mry-text">India</div>
-                  </div>
-                  <div class="mry-mb-20">
-                    <div class="mry-label mry-mb-5">City:</div>
-                    <div class="mry-text">Tiruchirappalli</div>
-                  </div>
-                  <div class="mry-mb-20">
-                    <div class="mry-label mry-mb-5">Adress:</div>
-                    <div class="mry-text">
-                      14, Parangusam Street, Sathanur, K K Nagar
-                    </div>
-                  </div>
-                  <div class="mry-mb-20">
-                    <div class="mry-label mry-mb-5">Email:</div>
-                    <a class="mry-text" href="mailto:gheelatelier@gmail.com"
-                      >gheelatelier@gmail.com</a
-                    >
-                  </div>
-                  <div class="mry-mb-20">
-                    <div class="mry-label mry-mb-5">Phone:</div>
-                    <a class="mry-text" href="#.">+91 9171557472</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- menu end -->
+					<a href="index.html">
+						<img src="assets/img/logo-white.svg" alt="Faure Logo" class="logo">
+					</a>
 
-      <div class="transition-fade">
-        <div class="mry-content-frame" id="scroll">
-          <canvas class="mry-dots"></canvas>
+					<a href="#" class="open-nav open-nav-inverse"><i></i></a>
 
-          <div class="swiper-container mry-main-slider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <!-- project -->
-                <div class="mry-project-slider-item">
-                  <div class="mry-project-frame">
-                    <div class="mry-cover-frame">
-                      <img
-                        class="mry-project-cover mry-position-center"
-                        src="img/light/projects/prjct-1/fs/1.jpg"
-                        alt="Project"
-                        data-swiper-parallax="500"
-                        data-swiper-parallax-scale="1.4"
-                      />
-                      <div class="mry-cover-overlay mry-gradient-overlay"></div>
-                      <div class="mry-loading-curtain"></div>
-                    </div>
-                    <div class="mry-main-title-frame">
-                      <div class="container">
-                        <div
-                          class="mry-main-title"
-                          data-swiper-parallax-x="30%"
-                          data-swiper-parallax-scale=".7"
-                          data-swiper-parallax-opacity="0"
-                          data-swiper-parallax-duration="1000"
-                        >
-                          <div class="mry-subtitle mry-mb-20">
-                            Interior design
-                          </div>
-                          <h1 class="mry-mb-30">
-                            Little Cottage<br /><span class="mry-border-text"
-                              >Сoncept</span
-                            >
-                          </h1>
-                          <div class="mry-text mry-mb-30">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.<br />Adipisci distinctio iure, rerum non
-                            fugit.
-                          </div>
-                          <a
-                            class="mry-btn mry-default-link mry-anima-link"
-                            href="project.html"
-                            >Open Case</a
-                          >
-                          <a
-                            class="mry-btn-text mry-default-link mry-anima-link"
-                            href="portfolio-grid-1.html"
-                            >All Projects</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- project end -->
-              </div>
-              <div class="swiper-slide">
-                <!-- project -->
-                <div class="mry-project-slider-item">
-                  <div class="mry-project-frame">
-                    <div class="mry-cover-frame">
-                      <img
-                        class="mry-project-cover mry-position-right"
-                        src="img/light/projects/prjct-2/fs/1.jpg"
-                        alt="Project"
-                        data-swiper-parallax="500"
-                        data-swiper-parallax-scale="1.4"
-                      />
-                      <div class="mry-cover-overlay mry-gradient-overlay"></div>
-                    </div>
-                    <div class="mry-main-title-frame">
-                      <div class="container">
-                        <div
-                          class="mry-main-title"
-                          data-swiper-parallax-x="30%"
-                          data-swiper-parallax-scale=".7"
-                          data-swiper-parallax-opacity="0"
-                          data-swiper-parallax-duration="1000"
-                        >
-                          <div class="mry-subtitle mry-mb-20">Architecture</div>
-                          <h1 class="mry-mb-30">
-                            Compact House<br /><span class="mry-border-text"
-                              >Project</span
-                            ><span class="mry-animation-el"></span>
-                          </h1>
-                          <div class="mry-text mry-mb-30">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.<br />Adipisci distinctio iure, rerum non
-                            fugit.
-                          </div>
-                          <a
-                            class="mry-btn mry-default-link mry-anima-link"
-                            href="project.html"
-                            >Open Case</a
-                          >
-                          <a
-                            class="mry-btn-text mry-default-link mry-anima-link"
-                            href="portfolio-grid-1.html"
-                            >All Projects</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- project end -->
-              </div>
-              <div class="swiper-slide">
-                <!-- project -->
-                <div class="mry-project-slider-item">
-                  <div class="mry-project-frame">
-                    <div class="mry-cover-frame">
-                      <img
-                        class="mry-project-cover"
-                        src="img/light/projects/prjct-3/fs/1.jpg"
-                        alt="Project"
-                        data-swiper-parallax="500"
-                        data-swiper-parallax-scale="1.4"
-                      />
-                      <div class="mry-cover-overlay mry-gradient-overlay"></div>
-                    </div>
-                    <div class="mry-main-title-frame">
-                      <div class="container">
-                        <div
-                          class="mry-main-title"
-                          data-swiper-parallax-x="30%"
-                          data-swiper-parallax-scale=".7"
-                          data-swiper-parallax-opacity="0"
-                          data-swiper-parallax-duration="1000"
-                        >
-                          <div class="mry-subtitle mry-mb-20">
-                            Interior design
-                          </div>
-                          <h1 class="mry-mb-30">
-                            Greenwell Yards<br /><span class="mry-border-text"
-                              >Country house</span
-                            ><span class="mry-animation-el"></span>
-                          </h1>
-                          <div class="mry-text mry-mb-30">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.<br />Adipisci distinctio iure, rerum non
-                            fugit.
-                          </div>
-                          <a
-                            class="mry-btn mry-default-link mry-anima-link"
-                            href="project.html"
-                            >Open Case</a
-                          >
-                          <a
-                            class="mry-btn-text mry-default-link mry-anima-link"
-                            href="portfolio-grid-1.html"
-                            >All Projects</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- project end -->
-              </div>
-            </div>
-          </div>
+					<nav class="navigation">
+						
+						<ul>
+							<li><a href="about.html">about</a></li>
+							<li><a href="projects.html">projects</a></li>
+							<li><a href="journal.html">journal</a></li>
+							<li><a href="contact.html">contact</a></li>
+						</ul>
 
-          <div class="mry-slider-pagination-frame">
-            <div class="mry-slider-pagination"></div>
-          </div>
+					</nav> <!-- /.navigation -->
 
-          <div class="mry-slider-nav-panel">
-            <div class="container">
-              <div class="mry-slider-progress-bar-frame">
-                <div class="mry-slider-progress-bar">
-                  <div class="mry-progress"></div>
-                </div>
-              </div>
-            </div>
+					<div class="clearfix"></div>
+					
+				</div> <!-- /.container -->
 
-            <div class="mry-slider-arrows">
-              <div class="mry-button-prev mry-magnetic-link">
-                <span class="mry-magnetic-object"
-                  ><i class="fas fa-arrow-left"></i
-                ></span>
-              </div>
-              <div class="mry-button-next mry-magnetic-link">
-                <span class="mry-magnetic-object"
-                  ><i class="fas fa-arrow-right"></i
-                ></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+			</header> <!-- /.header -->
+			
+			<div class="container">
+				<div class="block-1">
+					<div class="content">
+						<h1>smart interiors <br> with soul</h1>
+						<p>We are a full-service interior design studio based in London that creates smart, beautiful and functional spaces for commercial and residential clients.</p>
+						<a href="projects.html" class="btn-inverse">our projects</a>
+					</div>
+				</div>
+			</div> <!-- /.container -->
 
-    <!-- jquery js -->
-    <script src="js/plugins/jquery.min.js"></script>
-    <!-- tween max js -->
-    <script src="js/plugins/tween-max.min.js"></script>
-    <!-- scroll magic js -->
-    <script src="js/plugins/scroll-magic.js"></script>
-    <!-- scroll magic gsap plugin js -->
-    <script src="js/plugins/scroll-magic-gsap-plugin.js"></script>
-    <!-- swiper js -->
-    <script src="js/plugins/swiper.min.js"></script>
-    <!-- isotope js -->
-    <script src="js/plugins/isotope.min.js"></script>
-    <!-- fancybox js -->
-    <script src="js/plugins/fancybox.min.js"></script>
-    <!-- mapbox js -->
-    <script src="js/plugins/mapbox.min.js"></script>
-    <!-- smooth scrollbar js -->
-    <script src="js/plugins/smooth-scrollbar.min.js"></script>
-    <!-- overscroll js -->
-    <script src="js/plugins/overscroll.min.js"></script>
-    <!-- canvas js -->
-    <script src="js/plugins/canvas.js"></script>
-    <!-- parsley js -->
-    <script src="js/plugins/parsley.min.js"></script>
-    <!-- main js -->
-    <script src="js/main.js"></script>
-  </body>
+			<div class="main-hero-image"></div>
+
+			<div class="clearfix">	</div>
+
+		</div> <!-- /.main-hero -->
+
+		<div class="about-us">
+			
+			<div class="container">
+
+				<div class="block-1">
+					<div class="content">
+						<h3>faure interior design studio</h3>
+						<h2>functional &amp;<br> beautiful spaces</h2>
+						<p>Progressively maintain extensive infomediaries via extensible niches. Dramatically disseminate standardized metrics after strong leveling processes. Objectively lorem diverse catalysts for change for interoperable strong meta-services.</p>
+						<a href="about.html" class="btn">about us</a>
+					</div>
+				</div> <!-- /.block-1 -->
+
+				<div class="block-2">
+					<div class="about-image"><img src="assets/img/about-image.jpg" alt="" class="img-cover"></div>		
+				</div> <!-- /.block-2 -->
+				
+
+				<div class="clearfix"></div>
+
+			</div> <!-- /.container -->
+
+		</div> <!-- /.about-us -->
+
+		<div class="services">
+				
+			<div class="item">	
+				<div class="content">
+						<div class="icon">
+						<i><img src="assets/img/01_icon.svg" alt=""></i>
+					</div>
+					<h2>layout &amp; space planning</h2>
+				</div>
+			</div>
+
+			<div class="item">	
+				<div class="content">
+					<div class="icon">
+						<i><img src="assets/img/02_icon.svg" alt=""></i>
+					</div>
+					<h2>interior architecture</h2>
+				</div>
+			</div>
+
+			<div class="item">	
+				<div class="content">
+					<div class="icon">
+						<i><img src="assets/img/03_icon.svg" alt=""></i>
+					</div>
+					<h2>interior design</h2>
+				</div>
+			</div>
+
+			<div class="item">	
+				<div class="content">
+					<div class="icon">
+						<i><img src="assets/img/04_icon.svg" alt=""></i>
+					</div>
+					<h2>project coordination</h2>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+		</div> <!-- /.services -->
+
+		<div class="featured-works">
+			
+			<div class="container">
+				
+				<a href="case-study.html">	
+					<div class="featured-works-item">
+						<img src="assets/img/image-placeholder.jpg" alt="" class="img-cover">
+						<div class="overlay">
+							<div class="content">
+								<span>residenital</span><span>2019</span>
+								<h2>cobble hill house</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="case-study.html">	
+					<div class="featured-works-item">
+						<img src="assets/img/image-placeholder.jpg" alt="" class="img-cover">
+						<div class="overlay">
+							<div class="content">
+								<span>residenital</span><span>2019</span>
+								<h2>oakstreet guest house</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="case-study.html">	
+					<div class="featured-works-item">
+						<img src="assets/img/image-placeholder.jpg" alt="" class="img-cover">
+						<div class="overlay">
+							<div class="content">
+								<span>residenital</span><span>2019</span>
+								<h2>etoile penthouse</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="case-study.html">	
+					<div class="featured-works-item">
+						<img src="assets/img/image-placeholder.jpg" alt="" class="img-cover">
+						<div class="overlay">
+							<div class="content">
+								<span>residenital</span><span>2019</span>
+								<h2>waterhouse residence</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="case-study.html">	
+					<div class="featured-works-item">
+						<img src="assets/img/image-placeholder.jpg" alt="" class="img-cover">
+						<div class="overlay">
+							<div class="content">
+								<span>residenital</span><span>2019</span>
+								<h2>modern apartment</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="case-study.html">	
+					<div class="featured-works-item">
+						<img src="assets/img/image-placeholder.jpg" alt="" class="img-cover">
+						<div class="overlay">
+							<div class="content">
+								<span>commercial</span><span>2019</span>
+								<h2>blue moon complex</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="case-study.html">	
+					<div class="featured-works-item">
+						<img src="assets/img/image-placeholder.jpg" alt="" class="img-cover">
+						<div class="overlay">
+							<div class="content">
+								<span>hotels</span><span>2019</span>
+								<h2>jourdain hotel</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<div class="clearfix"></div>
+
+			</div> <!-- /.container -->
+
+		</div> <!-- /.featured-works -->
+
+		<div class="contact-us">
+			
+			<div class="block-1">
+				<div class="content">
+					<h2>Get in touch with us</h2>
+					<p>If you have an interesting project in mind,
+					don`t hesitate to contact us and figure out how we can help.</p>
+					<a href="contact.html" class="btn-inverse">contact us</a>
+				</div>
+			</div>
+
+			<div class="block-2"></div>
+
+			<div class="clearfix"></div>
+
+		</div> <!-- /.contact-us -->
+
+	</main> <!-- /main -->
+
+
+	<!-- ========== Footer ========== -->
+
+	<footer>
+		
+		<div class="container">
+			
+			<div class="footer-details">
+				<ul>
+					<li>links</li>
+					<li><a href="index.html">home</a></li>
+					<li><a href="about.html">about us</a></li>
+					<li><a href="projects.html">projects</a></li>
+					<li><a href="journal.html">journal</a></li>
+					<li><a href="contact.html">contact us</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-details">
+				<ul>
+					<li>follow us</li>
+					<li><a href="#">instagram</a></li>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">behance</a></li>
+					<li><a href="#">pinterest</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-details">
+				<ul>
+					<li>contact</li>
+					<li>+38098123574</li>
+					<li class="footer-email"><a href="mailto:" class="mail-link">faure-interior@mail.com</a></li>
+					<li>Oak Street 7, London</li>
+				</ul>
+			</div>
+
+			<div class="footer-details">
+				<ul>
+					<li>join our newsletter</li>
+					<li>
+						<form class="subscribe-form" action="#">
+							<input type="email" placeholder="Your Email" required>
+							<button type="submit"><img src="assets/img/email.svg" alt=""></button>
+						</form>
+						<div class="clearfix"></div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<p class="copyright">copyright <i class="far fa-copyright"></i> faure interiors 2021</p>
+
+		</div> <!-- /.container -->
+
+	</footer> <!-- /.footer -->
+
+
+	<!-- ========== Responsive Navigation ========== -->
+	
+	<div class="responsive-nav-container">
+		
+		<a href="#" class="close-nav"><i class="ti-close"></i></a>
+
+		<nav class="responsive-nav">
+
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="projects.html">projects</a></li>
+				<li><a href="journal.html">journal</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+
+		</nav> <!-- /.responsive-nav -->
+
+		<ul class="social-links">
+			<li><a href="#">facebook</a></li>
+			<li><a href="#">twitter</a></li>
+			<li><a href="#">instagram</a></li>
+			<li><a href="#">behance</a></li>
+		</ul>
+
+	</div> <!-- /.responsive-nav-container -->
+
+
+	<script src="assets/js/main.js"></script>
+</body>
 </html>
